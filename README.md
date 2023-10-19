@@ -5,7 +5,7 @@ In the future I will add useful utilities in list format, the list will be updat
 
 # Auto lib's loader
 
-[Tab here, to see auto lib's loader programm](https://github.com/VolinNilov/Useful-tools-from-Volin/blob/main/auto_loader.py)
+[Tab here, to see auto lib's loader programm](https://github.com/VolinNilov/Useful-tools-from-Volin/tree/main/Auto%20Lib%20Loader)
 
 This code allows you to automatically download the necessary libraries through the Python programming language's PIP package manager. The list of required libraries is given in the file "requirements.txt". This code is intended for fast and automatic deployment of already existing program code on a new device, utomating the process of downloading the necessary libraries through the PIP package manager.
 
