@@ -16,6 +16,9 @@ After downloading the file ```auto_loader.py```, you need to create a new file w
 Now you only need to add the following lines in your main file, which should be created in the same directory as ```auto_loader.py``` and ```file_name.txt```: 
 
 ```
+# auto lib's loader
 from auto_loader import loader_start
 loader_start()
 ```
+
+The magic has happened, you will now have all the libraries you need automatically loaded!
