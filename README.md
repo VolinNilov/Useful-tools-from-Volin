@@ -1,7 +1,7 @@
 # Useful-tools-from-Volin
 Here we will collect useful self-written utilities for automating work with code, the main language in which all this is written is Python
 
-In the future I will add useful utilities in list format, the list will be updated in the process of adding new software products
+In the future I will add useful utilities in the list format, the list will be updated in the process of adding new software products
 
 # Auto lib's loader
 
@@ -11,7 +11,7 @@ This code allows you to automatically download the necessary libraries through t
 
 Instructions for use:
 
-After downloading the file ```auto_loader.py```, you need to create a new file with a .txt extension and the name "requirements" in the directory where you installed this file (it should be "requirements.txt"), or change the name for this file to your own in the program code, in term 17, ```with open('file_name.txt', 'r') as f:```. After that it is enough to enter into the file ```file_name.txt``` the names of libraries you need and everything is ready! _(Each library must be specified on a new line)_
+After downloading the file ```auto_loader.py```, you need to create a new file with a .txt extension and the name "requirements" in the directory where you installed this file (it should be "requirements.txt"), or change the name for this file to your own in the program code, in the 17th line, ```with open('file_name.txt', 'r') as f:```. After that it is enough to enter into the file ```file_name.txt``` the names of libraries you need and everything is ready! _(Each library must be specified on a new line)_
 
 Now you only need to add the following lines in your main file, which should be created in the same directory as ```auto_loader.py``` and ```file_name.txt```: 
 
@@ -21,7 +21,7 @@ from auto_loader import loader_start
 loader_start()
 ```
 
-The magic has happened, you will now have all the libraries you need automatically loaded!
+The magic has happened, you have all the libraries that you need are automatically loaded!
 
 
 # Youtube Video Downloader
